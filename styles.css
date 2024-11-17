@@ -1,0 +1,56 @@
+/* Tipografía General */
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* Estilos de Sección */
+#forms-section,
+#list-section,
+#report-section,
+#welcome-section {
+    background-color: rgb(226, 194, 255);
+    padding: 2rem 0; /* Espaciado vertical */
+}
+
+/* Contenedores Internos */
+#products-form-container,
+#users-form-container,
+#users-list,
+#report-container,
+#products-list,
+#welcome-container {
+    background-color: #ffffff;
+    padding: 1rem;
+    border-radius: 5px; /* Bordes redondeados para un estilo más suave */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Sombra ligera para resaltar los contenedores */
+}
+
+/* Botones Personalizados */
+#btn1, #btn2 {
+    background-color: rgb(124, 81, 163);
+    border-color: rgb(124, 81, 163);
+    color: #ffffff;
+    transition: background-color 0.3s, transform 0.2s; /* Transiciones suaves */
+}
+
+#btn1:hover, #btn2:hover {
+    background-color: rgb(100, 65, 136); /* Color ligeramente más oscuro al pasar el cursor */
+    transform: scale(1.05); /* Efecto de aumento al pasar el cursor */
+}
+
+/* Encabezados */
+h1 {
+    color: blueviolet;
+    text-align: center; /* Alineación centrada */
+}
+
+h3 {
+    color: rgb(236, 141, 236);
+    text-align: center; /* Alineación centrada */
+}
+
+/* Texto General */
+p {
+    font-style: italic;
+    color: rgb(90, 90, 90); /* Color de texto suave */
+}
